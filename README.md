@@ -42,16 +42,16 @@ OR
 
 coffee-script
 ```coffescript
-C&#35; @if (PRODUCTION)
+# @if (PRODUCTION)
 ...
 
-C&#35; @elseif (DEBUG)
+# @elseif (DEBUG)
 ...
 
-C&#35; @else
+# @else
 ...
 
-C&#35; @endif
+# @endif
 ```
 
 Note the use of parentheses. Unlike C preprocessor directives, those parentheses are required for `@if` and `@elseif` statements.
